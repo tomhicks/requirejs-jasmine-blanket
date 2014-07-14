@@ -9,7 +9,12 @@ define(function (require) {
         },
         events: {
             'click @ui.button': function () {
-                this.triggerMethod('button:clicked');
+                var x = (true) ? true : false;
+                if (x) {
+                    this.triggerMethod('button:clicked');
+                } else {
+                    this.triggerMethod('something:else');
+                }
             }
         },
 
