@@ -17,6 +17,9 @@ require({
 });
 
 require(['js/app/test-view', 'marionette'], function (View, Marionette) {
+
+    'use strict';
+
     var app = new Marionette.Application();
 
     app.addRegions({

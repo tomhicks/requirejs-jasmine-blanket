@@ -1,4 +1,6 @@
 define(function (require) {
+    'use strict';
+
     var View = require('js/app/test-view');
     describe('Test View', function () {
         it('should run', function () {

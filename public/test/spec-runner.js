@@ -1,5 +1,7 @@
 require(['test/app/test-view-spec'], function () {
 
+  'use strict';
+
   window.blanketTestJasmineExpected = 2;
 
   var jasmineEnv = jasmine.getEnv();
